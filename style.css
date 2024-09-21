@@ -201,7 +201,7 @@ h1{
 
     .search-btn{
         position: relative;
-        left: 5%;
+        left: -2%;
         color:blue;
         border: none;
         background-color:transparent;
@@ -220,7 +220,7 @@ h1{
         border: 1px solid #ddd;
         margin-bottom: 10px;
         position: relative;
-        left: 5%;
+        left: 25%;
         top: 4em;
         width: 15em;
         height: 7em;
