@@ -1,0 +1,232 @@
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    color: #252525;
+     position: relative;
+      top: 40px;
+  background-image: url('country/flags-different-countries-punctured-lawn.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#results {
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    position: relative;
+}
+ #search-input{
+    position: relative;
+    left: 40%;
+    height: 40px;
+    width: 340px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.search-btn{
+    position: relative;
+    left: 35%;
+    color:blue;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+}
+
+.fas{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.search-btn:hover{
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.country-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    position: relative;
+    left: 35%;
+    top: 4em;
+    width: 30em;
+    height: 7em;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+}
+.country-item img {
+    margin-right: 15px;
+    width: 110px;
+    height: auto;
+    font-size: 380px;
+}
+.country-item .details {
+    display: block;
+    flex-direction: column; 
+    padding: 4px;
+    font-size: 20px;
+    
+}
+.inputs{
+    position: relative;
+    top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #search-input{
+        position: relative;
+        left: 20%;
+        height: 40px;
+        width: 310px;
+        border: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .search-btn{
+        position: relative;
+        left: 3%;
+        color:blue;
+        border: none;
+        background-color:transparent;
+        cursor: pointer;
+    }
+
+    body{
+        background-image: url('country/flags-different-countries-punctured-lawn.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+         height: 110vh;
+    }
+
+    .country-item {
+        padding: 15px;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        position: relative;
+        left: 5%;
+        top: 4em;
+        width: 25em;
+        height: 7em;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(145deg, #e2e8ec, #ffffff);
+        box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    }
+}
+
+@media only screen and (max-width:390px) {
+
+    #search-input{
+        position: relative;
+        left: 20px;
+        height: 40px;
+        width: 310px;
+        border: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .search-btn{
+        position: relative;
+        left: -50px;
+        color:blue;
+        border: none;
+        background-color:transparent;
+        cursor: pointer;
+    }
+
+    body{
+        background-image: url('country/flags-different-countries-punctured-lawn.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+         height: 110vh;
+    }
+
+    .country-item {
+        padding: 15px;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        position: relative;
+        left: 0;
+        top: 4em;
+        width: 15em;
+        height: 7em;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(145deg, #e2e8ec, #ffffff);
+        box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+
+    #search-input{
+        position: relative;
+        left: 20%;
+        height: 40px;
+        width: 310px;
+        border: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .search-btn{
+        position: relative;
+        left: 5%;
+        color:blue;
+        border: none;
+        background-color:transparent;
+        cursor: pointer;
+    }
+
+    body{
+        background-image: url('country/flags-different-countries-punctured-lawn.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+         height: 110vh;
+    }
+
+    .country-item {
+        padding: 15px;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        position: relative;
+        left: 5%;
+        top: 4em;
+        width: 15em;
+        height: 7em;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(145deg, #e2e8ec, #ffffff);
+        box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    }
+}
